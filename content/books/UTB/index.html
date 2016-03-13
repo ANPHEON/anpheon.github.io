@@ -11,14 +11,87 @@
 <body>
 	<div class="contain">
 		<div id="topnav-hero">
-			<h4>HERO GOES HERE</h4></div>
-		<ul id="topnav">
-			<li><a href="/content/pages/news/">NEWS</a></li>
-			<li><a href="/content/pages/home/">HOME</a></li>
-			<li><a href="/content/pages/books/">BOOKS</a></li>
-			<li><a href="/content/pages/articles/">ARTICLES</a></li>
-			<li><a href="/content/pages/about/">ABOUT</a></li>
+			<h4>HERO GOES HERE</h4>
+			<canvas id="hero-canvas"></canvas>
+		</div>
+		<ul id="topnav" data-length='5'>
+			<li><a href="/content/pages/news/" data-item-num='1'>NEWS</a></li>
+			<!-- 12172A 740923 D11C25 FABA4E FEDA8E-->
+			<li><a href="/content/pages/home/" data-item-num='2'>HOME</a></li>
+			<!-- 12172A 740923 D11C25 FABA4E FEDA8E-->
+			<li><a href="/content/pages/books/" data-item-num='3'>BOOKS</a></li>
+			<!-- 12172A 740923 D11C25 FABA4E FEDA8E-->
+			<li><a href="/content/pages/articles/" data-item-num='4'>ARTICLES</a></li>
+			<!-- 12172A 740923 D11C25 FABA4E FEDA8E-->
+			<li><a href="/content/pages/about/" data-item-num='5'>ABOUT</a></li>
+			<!-- 12172A 740923 D11C25 FABA4E FEDA8E-->
 		</ul>
+		<!---->
+		<!--        12172A-->
+		<!--    HEX-->
+		<!--18,23,42-->
+		<!--RGB-->
+		<!--0-->
+		<!--LOVES-->
+		<!--22-->
+		<!--VIEWS-->
+		<!--0-->
+		<!--FAVORITES-->
+		<!--0-->
+		<!--COMMENTS-->
+		<!--Roses are redby misat*-->
+		<!--740923-->
+		<!--HEX-->
+		<!--116,9,35-->
+		<!--RGB-->
+		<!--0-->
+		<!--LOVES-->
+		<!--19-->
+		<!--VIEWS-->
+		<!--0-->
+		<!--FAVORITES-->
+		<!--0-->
+		<!--COMMENTS-->
+		<!--salmon locoby jjolimie-->
+		<!--D11C25-->
+		<!--HEX-->
+		<!--209,28,37-->
+		<!--RGB-->
+		<!--0-->
+		<!--LOVES-->
+		<!--4-->
+		<!--VIEWS-->
+		<!--0-->
+		<!--FAVORITES-->
+		<!--0-->
+		<!--COMMENTS-->
+		<!--Laser Yellowby Naomimimi-->
+		<!--FABA4E-->
+		<!--HEX-->
+		<!--250,186,78-->
+		<!--RGB-->
+		<!--0-->
+		<!--LOVES-->
+		<!--12-->
+		<!--VIEWS-->
+		<!--0-->
+		<!--FAVORITES-->
+		<!--0-->
+		<!--COMMENTS-->
+		<!--mildew yellowby chiron8-->
+		<!--FEDA8E-->
+		<!--HEX-->
+		<!--254,218,142-->
+		<!--RGB-->
+		<!--0-->
+		<!--LOVES-->
+		<!--5-->
+		<!--VIEWS-->
+		<!--0-->
+		<!--FAVORITES-->
+		<!--0-->
+		<!--COMMENTS-->
+		<!---->
 		<div class="twelve col">
 			<h1><a href="/">ANPHEON</a></h1>
 			<hr>
@@ -42,25 +115,24 @@
 			<hr>
 		</div>
 		<div class="four col">
-			<h4>ARTICLES</h4>
-			<ul>
-				<li>2015-07-15 - </li><a href="/content/intro/intro/">The Road to the Looney Bin</a>
-				<li>2015-07-15 - </li><a href="/content/articles/road_to_the_looney_bin/">The Road to the Looney Bin</a></ul>
-			<h4>BOOKS</h4>
-			<ul>
-				<li>2015-07-15 - </li><a href="/content/books/W2/">What is ALL is and WHY?</a>
-				<p>GIL</p>
-				<li>2015-07-08 - </li><a href="/content/books/UTB/">Sorce Theory: Unlocking the Basement</a>
-				<p>JDM</p>
-				<li>2015-07-08 - </li><a href="/content/books/ORB/">The Orb</a>
-				<p>GIL</p>
-			</ul>
+			<!--h4 ARTICLES-->
+			<!--ul-->
+			<!--    each article in collections.articles-->
+			<!--        li= moment(article.date).format('YYYY-MM-DD') + " - "-->
+			<!--        a(href= '/' + article.path + '/')= article.title-->
+			<!---->
+			<!--h4 BOOKS-->
+			<!--ul-->
+			<!--    each book in collections.books-->
+			<!--        li= moment(book.date).format('YYYY-MM-DD') + " - "-->
+			<!--        a(href= '/' + book.path + '/')= book.title-->
+			<!--        <p>#{book.author}</p>-->
 			<h4>NEWS</h4>
 			<ul>
 				<li>2015-07-15 - </li><a href="/content/news/news1/">A N P H E O N . org</a></ul>
 		</div>
 		<div class="twelve col">
-			<h3>ANPHEON :: BUILT : Sat Mar 12 2016 18:07:37 GMT-0700 (MST)</h3>
+			<h3>ANPHEON :: BUILT : Sat Mar 12 2016 22:05:51 GMT-0700 (MST)</h3>
 			<script src="../../../anpheon-core.min.js"></script>
 		</div>
 	</div>
